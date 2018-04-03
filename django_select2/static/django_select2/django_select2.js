@@ -51,6 +51,6 @@
   }
 
   $(function () {
-    $('.django-select2').djangoSelect2()
+    $('.django-select2').not('.select2-hidden-accessible').djangoSelect2()
   })
 }(this.jQuery))
